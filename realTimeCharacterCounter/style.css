@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CAD5E2;
+}
+
+.container{
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #758283;
+    box-shadow: 5px 3px 7px 1px #80808094;
+}
+
+.container header{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container textarea{
+    width: 100%;
+    min-height: 120px;
+    resize: none;
+    font-size: 1.2rem;
+    outline: none;
+    font-family: inherit;
+    padding: 0.625rem;
+    background-color: #242B2E;
+    color: #CAD5E2;
+    border-radius: inherit;
+}
+
+.container .text-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.container .text-info .charCount{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.charCount[data-status="green"]{
+    color: green;
+}
+.charCount[data-status="yellow"]{
+    color: yellow;
+}
+.charCount[data-status="red"]{
+    color: red;
+}
+
+.green{
+    color: #00D84A;
+}
+
+.orange{
+    color: #E07C24;
+}
+
+.yellow{
+    color: #DDD101;
+}
+
+.red{
+    color: #D82E2F;
+}
