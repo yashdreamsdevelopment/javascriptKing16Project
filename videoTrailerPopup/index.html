@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Trailer Popup</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+    <div class="main-container" id="main-container">
+        <img src="./assets/images/poster.jpg" alt="movie poster">
+
+        <h2>Movie Title</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae cum eum molestiae ex ut excepturi deleniti. Excepturi distinctio iusto a repudiandae unde. Rem incidunt alias quam, praesentium reprehenderit voluptatem magnam cumque quas blanditiis autem!</p>
+
+        <button class="btn" id="watch-btn">
+            <i class="fa fa-play-circle" style="font-size: 24px;"></i>
+            <span>Watch Now</span>
+        </button>
+    </div>
+
+    <div class="trailer-container" id="trailer-container">
+        <video src="./assets/images/trailer.mp4" controls id="video">
+            Video Not Supported
+        </video>
+        <i class="fa fa-close" id="close-btn" style="font-size: 24px;"></i>
+    </div>
+</body>
+</html>
